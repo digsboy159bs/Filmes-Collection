@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.PNG">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rosarivo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Filmes Collection</title>
+</head>
+<header>
+    <nav>
+        <section id="logo_area">
+            <img src="img/logo.PNG" alt="logo Filmes Collection" title="Filmes Collection">
+            <div id="logo_flex">
+                <p id="filmes">FILMES</p>
+                <p id="collec">Collection</p>
+            </div>
+        </section>
+
+        <section id="nav_area">
+            <ul>
+                <li><a href="#">Perfil</a></li>
+                <li><a href="#">Filmes</a></li>
+                <li><a href="#">Gênero</a></li>
+            </ul>
+        </section>
+    </nav>
+</header>
+
+<body>
+    <section id="title">
+        <h1>Filmes</h1>
+        <img src="img/filmes.PNG" alt="Aqui esta uma sessão sobre filmes">
+    </section>
+
+    <section id="lista_filmes_flex">
+
+        <h3>Lista de Filmes</h3>
+        <table id="Filmes">
+            <tbody>
+                <td ></td>
+                <td ></td>
+            </tbody>
+        </table>
+
+    </section>
+
+    <section id="botao_listar">
+
+        <button onclick="buscarFilmes()" id="btn"  class="btn btn-warning">Listar Filmes</button>
+
+    </section>
+
+</body>
+
+<footer>
+
+    <div>
+        
+        <img src="img/template.PNG" alt="logo fimes Collection" title="Filmes Collection">
+        <p></p>
+        
+    </div>
+</footer>
+<script src="server.js"></script>
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listar Filmes</title>
+</head>
+<body>
+    <h1>Lista de filmes</h1>
+    <table id="Filmes">
+        <tbody>
+            <td id="nomeFilme"></td>
+            <td id="nomeGenero"></td>
+        </tbody>
+    </table>
+    <button onclick="buscarFilmes()" id="btn"  class="btn btn-warning">Listar Filmes</button>
+</body>
+<script src="server.js"></script>
+</html> -->

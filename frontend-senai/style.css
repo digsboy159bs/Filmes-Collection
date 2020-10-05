@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#logo_area {
+    display: flex;
+
+}
+
+#logo_area img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav {
+    background-color: #9BD2DE;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#filmes {
+    font-family: 'Roboto', sans-serif;
+    color: #616162;
+    font-size: 25px;
+}
+
+#collec {
+    font-family: 'Rosarivo', serif;
+    color: #686666;
+    font-size: 15px;
+}
+
+nav ul {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: -15px;
+}
+
+nav ul li {
+    margin-left: 50px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+    padding: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#title {
+    text-align: center;
+}
+
+#title img {
+    width: 110px;
+}
+
+#Filmes {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+}
+
+#Filmes tbody {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+#Filmes tbody td {
+    color: #4B2142;
+    font-size: 18px;
+    margin-left: 40px;
+    padding: 10px;
+}
+
+#lista_filmes_flex {
+    margin-left: 220px;
+    margin-top: 25px;
+}
+
+button {
+    background-color: #F6511D;
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 15px 30px 15px 30px;
+    margin-top: 100px;
+    margin-left: 960px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+footer {
+    background-color: #F6511D;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+footer img {
+    width: 650px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
